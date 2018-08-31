@@ -31,17 +31,17 @@
     10.3 Sin decoracion en el texto.
 <<11. Aplicar a la etiqueta <figure>.
     11.1 Margen superior e inferior de 7px.
-12. Aplicar al footer.
+<<12. Aplicar al footer.
     12.1 Color de fondo #2d3436.
     12.2 Paddin de 20px.
     12.3 Color de texto blanco.
-13. Aplicar a las etiquetas <label> vista en bloque y padding inferior y superior de 3px.
-14. Aplicar a la case section-footer.
+<<13. Aplicar a las etiquetas <label> vista en bloque y padding inferior y superior de 3px.
+<<14. Aplicar a la case section-footer.
     14.1 Vista en linea.
     14.2 Margen derecho e izquierdo de 15%.
-15. Quitar borde de etiqueta fieldset.
-16. Aplicar a la clase input-group un padding general de 7px.
-17. Aplicar a los input de tipo email.
+<<15. Quitar borde de etiqueta fieldset.
+<<16. Aplicar a la clase input-group un padding general de 7px.
+<<17. Aplicar a los input de tipo email.
     17.1 Padding 7px.
     17.2 Quitar los bordes.
     17.3 Agregar radio en los bordes de 4px.
@@ -116,5 +116,55 @@ a{
 figure{
     margin-bottom: 7px;
     margin-top: 7px;
+}
+
+footer{
+    color: white;
+    padding: 20px;
+    background-color: #2d3436;
+}
+
+label{
+    display: block;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.section-footer{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: inline-block;
+}
+
+fieldset{
+    border: none;
+}
+
+.input-group{
+    padding: 7px;
+}
+
+input[type="email"]{
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    background-color: #d35400;  
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+label span{
+    color: #d35400;
 }
 
