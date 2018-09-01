@@ -16,7 +16,6 @@ body{
     width: auto;
     height: 50em;
     margin: 0 auto;
-
 }
 
 table td{
@@ -44,4 +43,16 @@ td:hover{
     background-color: rgba(255, 0, 0, 0.5);
     color:white;
     text-align: center;
+}
+
+ul li{
+    display: block;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+li a{
+    color: white;
+    text-decoration: none;
 }
