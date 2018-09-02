@@ -1,0 +1,186 @@
+body{
+    background-color: whitesmoke;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    border: 2pt solid black;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content hr{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.encabezado{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    background-color: black;
+    color: cornflowerblue;
+    padding: 1;
+    margin: auto;
+    
+}
+.tamaños{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.tamaños h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.normal{
+    font-size: 1em;
+    color: gray;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+.normal:hover{
+    color:black;
+    background-color: gray;
+
+}
+
+.pequeño{
+    font-size: 0.5em;
+    color: gray;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+.pequeño:hover{
+    color:black;
+    background-color: gray;
+
+}
+
+.grande{
+    font-size: 2em;
+    color: gray;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+.grande:hover{
+    color:black;
+    background-color: gray;
+
+}
+.colores{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.cEsmeralda{
+    font-size: 1.5em;
+    color: white;
+    border: #57d68d;
+    background-color: #57d68d;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.cEsmeralda:hover{
+    background-color: #44af72;
+}
+
+.cCielo{
+    font-size: 1.5em;
+    color: white;
+    border: #5cace2;
+    background-color: #5cace2;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.cCielo:hover{
+    background-color: #458dbd;
+}
+
+.cAmatista{
+    font-size: 1.5em;
+    color: white;
+    border: #ae7ac4;
+    background-color: #ae7ac4;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.cAmatista:hover{
+    background-color: #885a9c;
+}
+
+.cAsfalto{
+    font-size: 1.5em;
+    color: white;
+    border:#5c6d7e;
+    background-color: #5c6d7e;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.cAsfalto:hover{
+    background-color: #495663;
+}
+
+.cTopazio{
+    font-size: 1.5em;
+    color: white;
+    border:#ea974e;
+    background-color: #ea974e;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.cTopazio:hover{
+    background-color: #be7739;
+}
+
+.cRubi{
+    font-size: 1.5em;
+    color: white;
+    border:#eb6f62;
+    background-color: #eb6f62;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.cRubi:hover{
+    background-color: #b34e43;
+}
+
+.bordeado{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.bSimple{
+    font-size: 1.5em;
+    color: gray;
+    border:gray 1pt solid;
+    background-color: #eb706200;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.bSimple:hover{
+    background-color: #b34e43;
+}
