@@ -4,12 +4,13 @@ body{
 
 .content{
     background-color: rgb(255, 255, 255);
-    border: 2pt solid black;
+    border: 2pt solid rgba(0, 0, 0, 0.384);
     height: auto;
     margin-left: 10%;
     margin-right: 10%;
 }
 .content hr{
+    color: #495663;
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -17,8 +18,8 @@ body{
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
-    background-color: black;
-    color: cornflowerblue;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: whitesmoke;
     padding: 1;
     margin: auto;
     
@@ -83,7 +84,7 @@ body{
     margin-right: 2em;
 }
 .cEsmeralda{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     border: #57d68d;
     background-color: #57d68d;
@@ -97,7 +98,7 @@ body{
 }
 
 .cCielo{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     border: #5cace2;
     background-color: #5cace2;
@@ -111,7 +112,7 @@ body{
 }
 
 .cAmatista{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     border: #ae7ac4;
     background-color: #ae7ac4;
@@ -125,7 +126,7 @@ body{
 }
 
 .cAsfalto{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     border:#5c6d7e;
     background-color: #5c6d7e;
@@ -139,7 +140,7 @@ body{
 }
 
 .cTopazio{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     border:#ea974e;
     background-color: #ea974e;
@@ -153,7 +154,7 @@ body{
 }
 
 .cRubi{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     border:#eb6f62;
     background-color: #eb6f62;
@@ -172,15 +173,161 @@ body{
 }
 
 .bSimple{
-    font-size: 1.5em;
+    font-size: 1em;
     color: gray;
     border:gray 1pt solid;
     background-color: #eb706200;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.bSimple:hover{
+    background-color: #9c9c9c3b;
+}
+
+.bEsmeralda{
+    font-size: 1em;
+    color: #57d68d;
+    border: #57d68d 1pt solid;
+    background-color: #57d68e00;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.bEsmeralda:hover{
+    background-color: #44af724f;
+}
+
+.bCielo{
+    font-size: 1em;
+    color: #5cace2;
+    border: #5cace2 1pt solid;
+    background-color: #5cace200;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.bCielo:hover{
+    background-color: #458dbd5b;
+}
+
+.bAmatista{
+    font-size: 1em;
+    color: #ae7ac4;
+    border: #ae7ac4 1pt solid;
+    background-color: #ae7ac400;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.bAmatista:hover{
+    background-color: #885a9c5d;
+}
+
+.bAsfalto{
+    font-size: 1em;
+    color: #5c6d7e;
+    border:#5c6d7e 1pt solid;
+    background-color: #5c6d7e00;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.bAsfalto:hover{
+    background-color: #4956633f;
+}
+
+.bTopazio{
+    font-size: 1em;
+    color: #ea974e;
+    border:#ea974e 1pt solid;
+    background-color: #ea974e00;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.bTopazio:hover{
+    background-color: #be77395e;
+}
+
+.bRubi{
+    font-size: 1em;
+    color: #eb6f62;
+    border:#eb6f62 1pt solid;
+    background-color: #eb706200;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.bRubi:hover{
+    background-color: #b34e433f;
+}
+
+.combinaciones{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.L_a{
+    font-size: 2em;
+    color: white;
+    border:#5c6d7e;
+    background-color: #5c6d7e;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+}
+
+.L_a:hover{
+    background-color: #465564
+}
+
+.B_c{
+    font-size: 1em;
+    color: #5cace2;
+    border: #5cace2 1pt solid;
+    background-color: #5cace200;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.B_c:hover{
+    background-color: #5cace24f;
+}
+
+.P_e{
+    font-size: 0.5em;
+    color: white;
+    border: #57d68d;
+    background-color: #57d68d;
     border-radius: 5px;
     margin-left: 1em;
     margin-right: 1em;
 }
 
-.bSimple:hover{
-    background-color: #b34e43;
+.P_e:hover{
+    background-color: #3f9e68;
+}
+
+.G_r{
+    font-size: 2em;
+    color: #eb6f62;
+    border:#eb6f62 1pt solid;
+    background-color: #eb706200;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.G_r:hover{
+    background-color: #eb706267
 }
