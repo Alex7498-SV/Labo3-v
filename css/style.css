@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(44, 44, 41);
+    color: whitesmoke;
+}
+
+.content{
+    border: black 1pt solid;
+    margin: 2em;
+}
+
+.title{
+    background-color: darkslategrey;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.ej1{
+    background-color: rgb(31, 63, 63);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+.ej1 a{
+    text-decoration: none;
+    color: white;
+}
+.ej2{
+    background-color: rgb(24, 48, 48);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+.ej2 a{
+    text-decoration: none;
+    color: white;
+}
+.ej3{
+    background-color: rgb(13, 26, 26);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+.ej3 a{
+    text-decoration: none;
+    color: white;
+}
